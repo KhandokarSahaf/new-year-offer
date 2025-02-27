@@ -17,12 +17,12 @@
 
 /* share styles */
 
-.primary-btn{
- color: rgb(255, 255, 255);
- padding: 16px 32px;
- border-radius: 5px;
- background-color: rgb(255, 0, 0);
- border: none;
+.primary-btn {
+  color: rgb(255, 255, 255);
+  padding: 16px 32px;
+  border-radius: 5px;
+  background-color: rgb(255, 0, 0);
+  border: none;
 }
 
 /* header section */
@@ -173,32 +173,105 @@
 /* join now section */
 
 .join-section {
-  width: 349.16px;
-  height: 464.65px;
-  background: linear-gradient(rgba(255, 192, 203, 0.427), rgba(215, 197, 200, 0.153));
+  background: linear-gradient(
+    rgba(255, 192, 203, 0.427),
+    rgba(215, 197, 200, 0.153)
+  );
   width: 1320px;
   margin: 120px auto;
   height: 464.65px;
   border-radius: 16px;
 }
 
-.join-container{
+.join-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 100px;
 }
 
-.join-title{
+.join-title {
   padding-top: 10px;
 }
 
-.join-button{
+.join-button {
   text-align: center;
   padding-top: 48px;
 }
 
-.highlight{
+.highlight {
   color: rgb(255, 0, 0);
 }
 
+/* card section  */
+
+.card {
+  width: 1320px;
+  height: 464.65px;
+  margin: 120px auto;
+}
+
+.boss-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-1 {
+  width: 393px;
+}
+.card-1 h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.card-1 h2 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  padding-top: 16px;
+}
+.card-1 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 22px;
+}
+.card-2 {
+  max-width: 364px;
+}
+.card-2 img {
+  width: 100%;
+  padding: 23px;
+  box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 100%;
+}
+
+.card-3 {
+  width: 276px;
+}
+.card-3 h3 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  justify-content: center;
+}
+.card-3 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 16px;
+  padding-bottom: 46px;
+}
+/* .card-3 img {
+  width: 140px;
+  padding-top: 200px;
+  padding-right: 0px;
+  padding-bottom: 2px;
+} */
