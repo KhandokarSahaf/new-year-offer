@@ -10,16 +10,16 @@
   font-style: normal;
 }
 
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
 /* header section */
 
-.header-container{
-max-width: 1320px;
-margin: 0 auto;
+.header-container {
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
 .header-background {
@@ -34,11 +34,11 @@ margin: 0 auto;
   margin-top: 40px;
 }
 
-.header-description{
- padding: 150px 344px;
+.header-description {
+  padding: 150px 344px;
 }
 
-.header-subtitle{
+.header-subtitle {
   color: rgb(255, 255, 255);
   font-family: Merriweather;
   font-size: 32px;
@@ -50,7 +50,50 @@ margin: 0 auto;
   color: rgb(255, 255, 255);
   font-family: Merriweather;
   font-size: 72px;
-  font-weight: 900;;
+  font-weight: 900;
   text-align: center;
   padding-top: 16px;
+}
+
+/* 65% OFF section add */
+
+.off-section {
+  width: 802.9px;
+  margin: 120px auto;
+}
+
+.off-description {
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.off-title {
+  color: rgb(255, 0, 0);
+  font-size: 88px;
+  font-weight: 700;
+  padding-bottom: 48px;
+}
+
+.off-subtitle {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+
+.off-text {
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/* 65% OFF Image style */
+
+.off-img{
+  max-width: 802.9px;
+}
+
+.off-img img {
+  width: 100%;
+  margin-bottom: 120px;
 }
