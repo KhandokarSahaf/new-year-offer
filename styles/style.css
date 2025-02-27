@@ -89,11 +89,72 @@
 
 /* 65% OFF Image style */
 
-.off-img{
+.off-img {
   max-width: 802.9px;
 }
 
 .off-img img {
   width: 100%;
-  margin-bottom: 120px;
+}
+
+/* midnight party 2024 */
+
+.party-container {
+}
+
+.party-background-img {
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url(../images/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1320px;
+  margin: 120px auto;
+  height: 600px;
+  border-radius: 16px;
+}
+
+.party-sub {
+  display: flex;
+  justify-content: space-around;
+}
+
+.party-description {
+  text-align: left;
+}
+
+.party-title {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  width: 642px;
+  padding: 126px 0 0 0;
+}
+
+.party-subtitle {
+  width: 697px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 24px 0 48px 0;
+}
+
+.party-text {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 50px;
+}
+
+/* party image section */
+.party-img {
+  display: flex;
+  align-items: center;
+}
+
+.party-img img {
 }
