@@ -15,6 +15,16 @@
   margin: 0;
 }
 
+/* share styles */
+
+.primary-btn{
+ color: rgb(255, 255, 255);
+ padding: 16px 32px;
+ border-radius: 5px;
+ background-color: rgb(255, 0, 0);
+ border: none;
+}
+
 /* header section */
 
 .header-container {
@@ -100,6 +110,7 @@
 /* midnight party 2024 */
 
 .party-container {
+  margin-bottom: 120px;
 }
 
 .party-background-img {
@@ -158,3 +169,36 @@
 
 .party-img img {
 }
+
+/* join now section */
+
+.join-section {
+  width: 349.16px;
+  height: 464.65px;
+  background: linear-gradient(rgba(255, 192, 203, 0.427), rgba(215, 197, 200, 0.153));
+  width: 1320px;
+  margin: 120px auto;
+  height: 464.65px;
+  border-radius: 16px;
+}
+
+.join-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.join-title{
+  padding-top: 10px;
+}
+
+.join-button{
+  text-align: center;
+  padding-top: 48px;
+}
+
+.highlight{
+  color: rgb(255, 0, 0);
+}
+
