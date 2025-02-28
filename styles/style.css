@@ -376,6 +376,69 @@
   background-color: gray;
   box-shadow: 10px 10px 10px 5px rgba(128, 128, 128, 0.406);
 }
-.images img{
+.images img {
   width: 100%;
+}
+
+/* Newsletter Section */
+.newsletter-container {
+  width: 1320px;
+  margin: 120px auto;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter-part-1 {
+  text-align: center;
+  width: 896px;
+  margin: 0 auto;
+}
+
+.newsletter-img {
+  width: 150px;
+  height: 150px;
+  margin: 80px auto 40px;
+}
+.newsletter-title {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 22px;
+}
+.newsletter-paragraph {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 48px;
+}
+
+/* Newsletter form  */
+
+.newsletter-form {
+  max-width: 648px;
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 80px;
+}
+.form-1 input {
+  padding: 25px 267px 25px 30px;
+  border-radius: 50px 0 0 50px;
+  border: none;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+.form-2 input {
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 24px 56px;
 }
